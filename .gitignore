@@ -1,13 +1,18 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-/.idea
-/.vscode
-/.vagrant
+# Escolarsis Cloud app
+escolarsis-cloud/node_modules
+escolarsis-cloud/vendor
+escolarsis-cloud/public/hot
+escolarsis-cloud/public/storage
+escolarsis-cloud/storage/*.key
+escolarsis-cloud/.env
+escolarsis-cloud/.phpunit.cache
+escolarsis-cloud/database/*.sqlite
+
+# IDE
+.idea
+.vscode
+.vagrant
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.env
